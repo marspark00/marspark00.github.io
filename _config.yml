@@ -72,7 +72,10 @@ about_content: | # this will include new lines to allow paragraphs
 # certificate_title: Certificate
 
 # More Section
-# more_title: A Little More About Me
+more_title: Etc
+more_content: | # this will include new lines to allow paragraphs
+  병역 사항
+   - 2000.08 ~ 2002.12 해군 병장 만기제대
   
 # Footer
 footer_show_references: true
