@@ -4,10 +4,10 @@
   quote: >
     2014.01 ~ 현재
   description: | # this will include new lines to allow paragraphs
-    * 빅스텝 CTO 및 서버파트 리드 (2023.07 ~ 현재)
-    * 퍼플오션 CTO 및 서버파트 리드 (2020.11 ~ 2022.12)
+    * 빅스텝 CTO (2023.07 ~ 현재)
+    * 퍼플오션 CTO (2020.11 ~ 2022.12)
     * 클럽 오디션 서버파트 리드 (2018.08 ~ 2020.11)
-    * WIA 서버파트 리드 (2014.01 ~ 2018.08)
+    * WIA(오디션3) 서버파트 리드 (2014.01 ~ 2018.08)
 
 - layout: top-middle
   name: 모비딕
@@ -16,6 +16,7 @@
     2020.11 ~ 2023.12
   description: | # this will include new lines to allow paragraphs
     * None Server 구조를 Server 구조로 변경
+    * 클라이언트 로직 서버에서 구현, 신규 컨텐츠 작업
     * Vue.js를 활용한 운영웹 제작
 
 - layout: top-middle
@@ -36,7 +37,7 @@
     2018.08 ~ 2020.11
   description: | # this will include new lines to allow paragraphs
     * 오디션 IP를 활용한 모바일 댄스 게임
-    * 동남아 지역 순차 런칭
+    * 동남아 지역 순차 런칭 및 운영
     * 서비스 개발 및 시스템 개편
 
 - layout: top-middle
@@ -46,7 +47,7 @@
     2010.01 ~ 2018.08
   description: | # this will include new lines to allow paragraphs
     * 오디션 IP 활용 세번째 댄스 게임
-    * 2013년 중국 동남아 지역 서비스 런칭
+    * 2013년 중국 및 동남아 지역 서비스 런칭 및 운영
     * C#을 이용한 서버 운영툴 제작
     * MSSQL 데이터베이스 설계, 성능 개선
     
