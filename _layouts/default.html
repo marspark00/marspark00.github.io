@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ko" }}">
+
+{%- include head.html -%}
+    <meta property="og:image" content="https://github.com/marspark00/marspark00.github.io/blob/main/images/profile.jpg?raw=true">
+<body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+
+            {%- include about.html -%}
+
+            {%- if site.data.experience.size > 0 -%}
+                {%- include experience.html -%}
+            {%- endif -%}
+
+            {%- if site.data.projects.size > 0 -%}
+                {%- include projects.html -%}
+            {%- endif -%}
+
+            {%- if site.data.skill.size > 0 -%}
+                {%- include skill.html -%}
+            {%- endif -%}
+
+            {%- if site.data.education.size > 0 -%}
+                {%- include education.html -%}
+            {%- endif -%}
+
+            {%- if site.data.certificate.size > 0 -%}
+                {%- include certificate.html -%}
+            {%- endif -%}
+
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+<!-- 
+    <a href="https://github.com/sproogen/resume-theme" target="_blank">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+        alt="Fork me on GitHub">
+    </a>
+    <script src="https://utteranc.es/client.js"
+        repo="marspark00/marspark00.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+- layout: left
+  name: Backend
+  description: | # this will include new lines to allow paragraphs
+    * C++, C#, Java, NodeJS(JavaScript)
+    * TypeORM, JPA, Querydsl, Hibernate
+    * Jest, Supertest, Junit4/5, Mockito, Spock
+    * Gradle, Maven
+    * IntelliJ, Visual Studio, Visual Studio Code
+
+- layout: left
+  name: DevOps
+  description: | # this will include new lines to allow paragraphs
+    * MySQL, MariaDB, MS-SQL
+    * Jenkins
+    * Elastic Cache (Redis), RDS (Aurora), S3, EC2
+    * Nginx
+    * Linux CentOS, Rocky
