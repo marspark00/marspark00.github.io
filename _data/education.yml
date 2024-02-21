@@ -5,16 +5,15 @@
   quote: >
     C, C++, SQL등 교육
   description: | # this will include new lines to allow paragraphs
-    * 신규 개편할 포인트 시스템의 AWS 인프라 구축이 필요해 참여
-    * Code Deploy를 통한 무중단 배포, Cloud Watch 모니터링 등 
+    * C, C++ 언어를 이용한 프로그램 교육 이수
+    * MSSQL을 이용한 데이터베이스 교육 이수
 
 - layout: left
-  name: 패스트캠퍼스 SQL 튜닝 캠프
-  dates: 2017.07 ~ 2017.08
-  link: https://marspark00.tistory.com/162
+  name: 수성대학교
+  dates: 2004.03 ~ 2006.02
+  link: https://www.sc.ac.kr/main
   quote: >
-    오라클을 기반의 쿼리 튜닝 교육
+    멀티미디어 학과
   description: | # this will include new lines to allow paragraphs
-    * 정산 시스템을 개발/운영 하면서 복잡한 쿼리 + 쿼리 성능 튜닝의 필요성을 느껴 참여
-    * 기본적인 인덱스, 실행 계획, RDBMS의 구조
-    * 실제 업무에 적용 후 쿼리 성능 향상 (5초 -> 1.2초)
+    * 프로그램 전반 교육
+    * 미디어 관련 교육

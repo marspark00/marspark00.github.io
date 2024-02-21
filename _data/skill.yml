@@ -2,16 +2,23 @@
   name: Backend
   description: | # this will include new lines to allow paragraphs
     * C++, C#, Java, NodeJS(JavaScript)
-    * TypeORM, JPA, Querydsl, Hibernate
-    * Jest, Supertest, Junit4/5, Mockito, Spock
-    * Gradle, Maven
+    * TypeORM, Gradle
     * IntelliJ, Visual Studio, Visual Studio Code
 
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * MySQL, MariaDB, MS-SQL
-    * Jenkins
+    * MySQL, MariaDB, MS-SQL, Redis
     * Elastic Cache (Redis), RDS (Aurora), S3, EC2
-    * Nginx
-    * Linux CentOS, Rocky
+    * Nginx    
+    * Linux CentOS, Rocky, Windows Server
+    * Jenkins
+
+- layout: left
+  name: Etc
+  description: | # this will include new lines to allow paragraphs
+    * 간단한 프로젝트에 사용했던 항목 입니다. (취미 수준)
+    * Golang - 퍼즐 오디션 운영툴 백엔드
+    * PHP - 클럽 오디션 Gate 서버, 운영툴 FrontEnd에서 사용
+    * Python - 모비딕 게임 테이블 파서 제작
+    
