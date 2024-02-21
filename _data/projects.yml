@@ -13,7 +13,7 @@
   name: 모비딕
   link: https://play.google.com/store/apps/details?id=net.purpleocean.mobydick&hl=ko&gl=US&pli=1
   quote: >
-    2020.11 ~ 2023.12
+    2020.11 ~ 2022.12
   description: | # this will include new lines to allow paragraphs
     * None Server 구조를 Server 구조로 변경
     * node.js(JS), MariaDB, Redis, Docker, Rocky Linux 기반
@@ -24,7 +24,7 @@
   name: 도시어부M
   link: https://play.google.com/store/apps/details?id=com.hanbitsoft.cityfishermanm&hl=ko&gl=US
   quote: >
-    2020.11 ~ 2023.12
+    2020.11 ~ 2022.12
   description: | # this will include new lines to allow paragraphs
     * TV 프로그램 도시어부 IP를 활용한 모바일 낚시 게임
     * C# ASP.net, MSSQL, Redis, Windows 기반 
