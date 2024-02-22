@@ -43,7 +43,6 @@
     * 외부 시스템 연계작업
     * ASP.net을 활용한 운영 웹 제작 및 적용
 
-
 - layout: top-middle
   name: 클럽 오디션
   link: https://play.google.com/store/apps/details?id=com.hanbitsoft.clubaudition&hl=ko
@@ -51,7 +50,7 @@
     2018.08 ~ 2020.11
   description: | # this will include new lines to allow paragraphs
     * 오디션 IP를 활용한 모바일 댄스 게임
-    * Java 소켓서버, MySql, Redis, CentOS Linux 기반
+    * Java 소켓서버 (Netty), MySql, Redis, CentOS Linux 기반
     * 소켓 서버를 restful API 형태와 유사하게 사용
     * 동남아 지역 순차 런칭 및 운영
     * 서비스 개발 및 시스템 개편
