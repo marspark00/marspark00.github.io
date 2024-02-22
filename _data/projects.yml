@@ -10,11 +10,22 @@
     * WIA(오디션3) 서버파트 리드 (2014.01 ~ 2018.08)
 
 - layout: top-middle
+  name: Frutti Dino Fishing 
+  link: https://medium.com/@FruttiDino/%EF%B8%8Fnew-frutti-dino-updates-%EF%B8%8F-1a7ed3a9abe8
+  quote: >
+    2023.01 ~ 2023.10
+  description: | # this will include new lines to allow paragraphs
+    * 모바일 PVP 낚시 게임
+    * node.js(JS), Java, MariaDB, Redis, Docker, Rocky Linux 기반
+    * API서버, 대전서버 개발
+
+- layout: top-middle
   name: 모비딕
   link: https://play.google.com/store/apps/details?id=net.purpleocean.mobydick&hl=ko&gl=US&pli=1
   quote: >
     2020.11 ~ 2022.12
   description: | # this will include new lines to allow paragraphs
+    * 1800년대를 배경으로 선원들과 함께 모비딕을 사냥하는 모바일 게임
     * None Server 구조를 Server 구조로 변경
     * node.js(JS), MariaDB, Redis, Docker, Rocky Linux 기반
     * 클라이언트 로직 서버에서 구현, 신규 컨텐츠 작업
@@ -51,9 +62,10 @@
   quote: >
     2010.01 ~ 2018.08
   description: | # this will include new lines to allow paragraphs
-    * 오디션 IP 활용 세번째 댄스 게임
+    * 오디션 IP 활용 세번째 댄스 게임, PC 온라인
     * C++ 소켓서버, MS-SQL, 윈도우 서버 기반
     * 2013년 중국 및 동남아 지역 서비스 런칭 및 운영
+    * 컨텐츠 전반 개발
     * C#을 이용한 서버 운영툴 제작
     * MSSQL 데이터베이스 설계, 성능 개선
     
@@ -65,7 +77,8 @@
   description: | # this will include new lines to allow paragraphs
     * PC 온라인 댄스 아케이드 게임
     * C++ 소켓서버, MS-SQL, 윈도우 서버 기반
-    * 대만, 싱가폴, 인도네시아, 베트남 지역 서비스 개발 및 관리
+    * 대만, 싱가폴, 인도네시아, 베트남 지역 서비스 관리
+    * 컨텐츠 개발
     * C#을 이용한 서버 운영툴 제작
     * MySql 데이터 베이스 성능 개선
 
