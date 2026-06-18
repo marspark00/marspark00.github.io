@@ -5,6 +5,7 @@
     "email": "marspark00@gmail.com",
     "website": "marspark00.github.io",
     "image": "/images/profile.jpg",
+    "highlights": ["Backend Architecture", "Game Server", "DevOps", "Tech Leadership"],
     "about": [
       "게임 서버와 웹/앱 서비스 백엔드 개발자로서 오디션(PC), WIA(오디션3, PC), 클럽 오디션(모바일), 도시어부M(모바일) 등의 프로젝트에서 개발 작업을 해왔습니다.",
       "C++, MSSQL, Node.js, Java, MariaDB, Redis, AWS, Linux 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험으로 확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴을 위해 언제나 고민하고 있습니다.",

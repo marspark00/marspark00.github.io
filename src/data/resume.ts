@@ -16,6 +16,7 @@ type ResumeProfile = {
   email: string;
   website: string;
   image: string;
+  highlights: string[];
   about: string[];
   more: string[];
 };

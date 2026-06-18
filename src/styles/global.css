@@ -7,6 +7,7 @@
   --line: #d8dde5;
   --accent: #136f63;
   --accent-soft: #e7f4f1;
+  --surface: #f3f6f8;
   --shadow: 0 16px 40px rgba(20, 32, 45, 0.08);
   font-family: Inter, "Segoe UI", "Noto Sans KR", Arial, sans-serif;
 }
@@ -20,6 +21,7 @@
     --line: #333a42;
     --accent: #7ad9c9;
     --accent-soft: #173b36;
+    --surface: #171a1e;
     --shadow: none;
   }
 }
@@ -142,6 +144,25 @@ nav a {
   word-break: break-word;
 }
 
+.highlight-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.highlight-list span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 4px 10px;
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .content {
   display: grid;
   gap: 24px;
@@ -205,17 +226,63 @@ ul {
   padding-left: 1.2rem;
 }
 
+.entry-points {
+  margin-top: 12px;
+}
+
 li + li {
   margin-top: 4px;
 }
 
+.timeline .entry-list {
+  gap: 0;
+}
+
+.timeline .entry {
+  position: relative;
+  padding: 0 0 28px 26px;
+  border-bottom: 0;
+  border-left: 2px solid var(--line);
+}
+
+.timeline .entry::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -7px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--panel);
+  border: 3px solid var(--accent);
+}
+
+.timeline .entry:last-child {
+  padding-bottom: 0;
+}
+
+.cards .entry-list,
 .compact .entry-list {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.cards .entry {
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.cards .entry:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.cards:not(.compact) .entry-list {
+  align-items: start;
+}
+
 .compact .entry {
-  padding-bottom: 0;
-  border-bottom: 0;
+  padding-bottom: 18px;
 }
 
 .plain-list {
@@ -233,12 +300,17 @@ li + li {
   }
 
   .entry-head,
+  .cards .entry-list,
   .compact .entry-list {
     grid-template-columns: 1fr;
   }
 
   .dates {
     white-space: normal;
+  }
+
+  .timeline .entry {
+    padding-left: 20px;
   }
 }
 

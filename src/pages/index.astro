@@ -29,6 +29,9 @@ import "@/styles/global.css";
           <a href={`mailto:${profile.email}`}>{profile.email}</a>
           <a href={`https://${profile.website}`} target="_blank" rel="noreferrer">{profile.website}</a>
         </nav>
+        <div class="highlight-list" aria-label="핵심 역량">
+          {profile.highlights.map((highlight) => <span>{highlight}</span>)}
+        </div>
       </aside>
 
       <div class="content">
@@ -37,9 +40,9 @@ import "@/styles/global.css";
           {profile.about.map((paragraph) => <p>{paragraph}</p>)}
         </section>
 
-        <Section title="Experience" entries={experience} />
-        <Section title="Projects" entries={projects} />
-        <Section title="Skill" entries={skills} compact />
+        <Section title="Experience" entries={experience} variant="timeline" />
+        <Section title="Projects" entries={projects} variant="cards" />
+        <Section title="Skill" entries={skills} compact variant="cards" />
         <Section title="Education" entries={education} compact />
         <Section title="Certificate" entries={certificates} compact />
 
