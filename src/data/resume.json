@@ -1,0 +1,147 @@
+{
+  "profile": {
+    "name": "박대원 / DAEWON PARK",
+    "title": "서버 백엔드 엔지니어",
+    "email": "marspark00@gmail.com",
+    "website": "marspark00.github.io",
+    "image": "/images/profile.jpg",
+    "about": [
+      "게임 서버와 웹/앱 서비스 백엔드 개발자로서 오디션(PC), WIA(오디션3, PC), 클럽 오디션(모바일), 도시어부M(모바일) 등의 프로젝트에서 개발 작업을 해왔습니다.",
+      "C++, MSSQL, Node.js, Java, MariaDB, Redis, AWS, Linux 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험으로 확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴을 위해 언제나 고민하고 있습니다.",
+      "서비스 개발이란 결국 개발과 비즈니스와의 커뮤니케이션이 가장 중요하다고 생각합니다. 능동적이고 적극적인 커뮤니케이션으로 문제 해결과 비즈니스 발전을 위해 뛰어듭니다."
+    ],
+    "more": ["해군 병장 만기제대 (복무 기간 비공개)"]
+  },
+  "experience": [
+    {
+      "company": "빅스텝",
+      "link": "https://bigstep.info/",
+      "jobTitle": "CTO & 백엔드 개발자",
+      "dates": "2023.07 ~ 현재",
+      "quote": "게임 개발 스타트업",
+      "description": [
+        "사내 전반 인프라 구축 (배포, 테스트, 운영등)",
+        "개발파트 채용 (서버 / 클라이언트)",
+        "테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선",
+        "게임 개발 및 런칭 (DeepHunter, DinoFishing, WorldFishing 등)"
+      ]
+    },
+    {
+      "company": "퍼플오션",
+      "link": "https://www.gamejob.co.kr/Company/Detail?M=27274136",
+      "jobTitle": "CTO & 백엔드 개발자",
+      "dates": "2020.11 ~ 2022.12",
+      "quote": "피싱훅, 도시어부M 등을 런칭한 게임 개발사",
+      "description": [
+        "개발파트 채용 (서버 / 클라이언트)",
+        "사내 개발 및 배포 환경 개선",
+        "테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선",
+        "게임 개발 및 개선 (도시어부M, 모비딕, Defishing 등)"
+      ]
+    },
+    {
+      "company": "티쓰리엔터테인먼트",
+      "link": "https://www.t3.co.kr/kr/index.php",
+      "jobTitle": "C++, C#, Java 백엔드 개발자",
+      "dates": "2008.08 ~ 2020.11",
+      "quote": "오디션, 에이카 등을 런칭한 게임 개발사",
+      "description": [
+        "오디션 해외 서비스 관리",
+        "WIA (오디션3) 국내, 해외 서비스 런칭 및 운영",
+        "클럽 오디션(모바일) 해외 다수 국가에 서비스 런칭",
+        "퍼즐 오디션 개발 참여"
+      ]
+    },
+    {
+      "company": "투기어게임즈",
+      "jobTitle": "C, C++ 백엔드 개발자",
+      "dates": "2007.05 ~ 2008.08",
+      "quote": "게임 개발 스타트업",
+      "description": ["FPS게임 2War 런칭 및 신규 컨텐츠 제작, 유지보수"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "개발 파트 매니징",
+      "dates": "2014.01 ~ 현재",
+      "description": [
+        "빅스텝 CTO (2023.07 ~ 현재)",
+        "퍼플오션 CTO (2020.11 ~ 2022.12)",
+        "클럽 오디션 서버파트 리드 (2018.08 ~ 2020.11)",
+        "WIA(오디션3) 서버파트 리드 (2014.01 ~ 2018.08)"
+      ]
+    },
+    {
+      "name": "Frutti Dino Fishing",
+      "link": "https://medium.com/@FruttiDino/%EF%B8%8Fnew-frutti-dino-updates-%EF%B8%8F-1a7ed3a9abe8",
+      "dates": "2023.01 ~ 2023.10",
+      "description": ["모바일 PVP 낚시 게임", "node.js(JS), Java, MariaDB, Redis, Docker, Rocky Linux 기반", "API서버, 대전서버 개발"]
+    },
+    {
+      "name": "모비딕",
+      "link": "https://play.google.com/store/apps/details?id=net.purpleocean.mobydick&hl=ko&gl=US&pli=1",
+      "dates": "2020.11 ~ 2022.12",
+      "description": ["1800년대를 배경으로 선원들과 함께 모비딕을 사냥하는 모바일 게임", "None Server 구조를 Server 구조로 변경", "node.js(JS), MariaDB, Redis, Docker, Rocky Linux 기반", "클라이언트 로직 서버에서 구현, 신규 컨텐츠 작업", "Vue.js를 활용한 운영웹 제작"]
+    },
+    {
+      "name": "도시어부M",
+      "link": "https://play.google.com/store/apps/details?id=com.hanbitsoft.cityfishermanm&hl=ko&gl=US",
+      "dates": "2020.11 ~ 2022.12",
+      "description": ["TV 프로그램 도시어부 IP를 활용한 모바일 낚시 게임", "C# ASP.net, MSSQL, Redis, Windows 기반", "시스템 전반 성능 개선", "외부 시스템 연계작업", "ASP.net을 활용한 운영 웹 제작 및 적용"]
+    },
+    {
+      "name": "클럽 오디션",
+      "link": "https://play.google.com/store/apps/details?id=com.hanbitsoft.clubaudition&hl=ko",
+      "dates": "2018.08 ~ 2020.11",
+      "description": ["오디션 IP를 활용한 모바일 댄스 게임", "Java 소켓서버 (Netty), MySql, Redis, CentOS Linux 기반", "소켓 서버를 restful API 형태와 유사하게 사용", "동남아 지역 순차 런칭 및 운영", "서비스 개발 및 시스템 개편"]
+    },
+    {
+      "name": "World In Audition (오디션3)",
+      "dates": "2010.01 ~ 2018.08",
+      "description": ["오디션 IP 활용 세번째 댄스 게임, PC 온라인", "C++ 소켓서버, MS-SQL, 윈도우 서버 기반", "2013년 중국 및 동남아 지역 서비스 런칭 및 운영", "컨텐츠 전반 개발", "C#을 이용한 서버 운영툴 제작", "MSSQL 데이터베이스 설계, 성능 개선"]
+    },
+    {
+      "name": "오디션",
+      "link": "https://audition.hanbiton.com/Home/Home.aspx",
+      "dates": "2008.08 ~ 2009.12",
+      "description": ["PC 온라인 댄스 아케이드 게임", "C++ 소켓서버, MS-SQL, 윈도우 서버 기반", "대만, 싱가폴, 말레이시아, 베트남, 영국, 유럽 지역 서비스 관리", "컨텐츠 개발", "C#을 이용한 서버 운영툴 제작", "MySql 데이터 베이스 성능 개선"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "description": ["C++, C#, Java, NodeJS(JavaScript)", "TypeORM, Gradle", "IntelliJ, Visual Studio, Visual Studio Code"]
+    },
+    {
+      "name": "DevOps",
+      "description": ["MySQL, MariaDB, MS-SQL, Redis", "Elastic Cache (Redis), RDS (Aurora), S3, EC2", "Docker, Nginx", "Linux CentOS, Rocky, Windows Server", "Jenkins"]
+    },
+    {
+      "name": "Etc",
+      "description": ["간단한 프로젝트에 사용했던 항목 입니다. (취미 수준)", "Golang - 퍼즐 오디션 운영툴 백엔드", "PHP - 클럽 오디션 Gate 서버, 운영툴 FrontEnd에서 사용", "Python - 모비딕 게임 테이블 파서 제작"]
+    }
+  ],
+  "education": [
+    {
+      "name": "iTBC교육센터",
+      "dates": "2006.10 ~ 2007.04",
+      "link": "https://itbc.or.kr/",
+      "quote": "C, C++, SQL등 교육",
+      "description": ["C, C++ 언어를 이용한 프로그램 교육 이수", "MSSQL을 이용한 데이터베이스 교육 이수"]
+    },
+    {
+      "name": "수성대학교",
+      "dates": "2004.03 ~ 2006.02",
+      "link": "https://www.sc.ac.kr/main",
+      "quote": "멀티미디어 학과",
+      "description": ["프로그램 전반 교육", "미디어 관련 교육"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "정보처리 산업기사",
+      "link": "https://www.q-net.or.kr/crf005.do?id=crf00505&gSite=Q&jmCd=2290",
+      "description": ["한국산업인력공단 (취득일 비공개)"]
+    }
+  ]
+}

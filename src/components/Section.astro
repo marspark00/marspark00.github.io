@@ -1,0 +1,35 @@
+---
+import type { ResumeEntry } from "@/data/resume";
+
+type Props = {
+  title: string;
+  entries: ResumeEntry[];
+  compact?: boolean;
+};
+
+const { title, entries, compact = false } = Astro.props;
+---
+
+<section class:list={["section", { compact }]}>
+  <h2>{title}</h2>
+  <div class="entry-list">
+    {entries.map((entry) => {
+      const heading = entry.company ?? entry.name;
+      return (
+        <article class="entry">
+          <div class="entry-head">
+            <div>
+              {entry.link ? <a class="entry-title" href={entry.link} target="_blank" rel="noreferrer">{heading}</a> : <h3>{heading}</h3>}
+              {entry.jobTitle && <p class="role">{entry.jobTitle}</p>}
+              {entry.quote && <p class="quote">{entry.quote}</p>}
+            </div>
+            {entry.dates && <p class="dates">{entry.dates}</p>}
+          </div>
+          <ul>
+            {entry.description.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+      );
+    })}
+  </div>
+</section>

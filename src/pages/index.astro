@@ -1,0 +1,55 @@
+---
+import Section from "@/components/Section.astro";
+import { certificates, education, experience, profile, projects, skills } from "@/data/resume";
+import "@/styles/global.css";
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={`${profile.name} - ${profile.title}`} />
+    <meta property="og:title" content={`${profile.name} | ${profile.title}`} />
+    <meta property="og:description" content="서버 백엔드 엔지니어 이력서" />
+    <meta property="og:image" content="/images/profile.jpg" />
+    <link rel="icon" href="/images/favicon.ico" />
+    <title>{profile.name} | {profile.title}</title>
+  </head>
+  <body>
+    <main class="resume-shell">
+      <aside class="sidebar">
+        <img src={profile.image} alt={`${profile.name} 프로필 사진`} class="profile-image" />
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h1>{profile.name}</h1>
+          <p class="title">{profile.title}</p>
+        </div>
+        <nav aria-label="연락처">
+          <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          <a href={`https://${profile.website}`} target="_blank" rel="noreferrer">{profile.website}</a>
+        </nav>
+      </aside>
+
+      <div class="content">
+        <section class="about">
+          <h2>About Me</h2>
+          {profile.about.map((paragraph) => <p>{paragraph}</p>)}
+        </section>
+
+        <Section title="Experience" entries={experience} />
+        <Section title="Projects" entries={projects} />
+        <Section title="Skill" entries={skills} compact />
+        <Section title="Education" entries={education} compact />
+        <Section title="Certificate" entries={certificates} compact />
+
+        <section class="section compact">
+          <h2>Etc</h2>
+          <ul class="plain-list">
+            {profile.more.map((item) => <li>{item}</li>)}
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
