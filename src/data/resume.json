@@ -15,6 +15,14 @@
   },
   "experience": [
     {
+      "company": "캐킷",
+      "link": "https://www.katkit.co.kr/",
+      "jobTitle": "백엔드 개발자",
+      "dates": "2024.03 ~ 현재",
+      "quote": "게임 개발 스타트업",
+      "description": ["게임 컨텐츠 개발 (럽플레이스, 거상M)", "대만 서비스 런칭 (럽플레이스)", "테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선"]
+    },
+    {
       "company": "빅스텝",
       "link": "https://bigstep.info/",
       "jobTitle": "CTO & 백엔드 개발자",
@@ -66,11 +74,24 @@
       "name": "개발 파트 매니징",
       "dates": "2014.01 ~ 현재",
       "description": [
-        "빅스텝 CTO (2023.07 ~ 현재)",
+        "거상M 서버파트 리드 (2026.05 ~ 현재)",
+        "빅스텝 CTO (2023.07 ~ 2024.03)",
         "퍼플오션 CTO (2020.11 ~ 2022.12)",
         "클럽 오디션 서버파트 리드 (2018.08 ~ 2020.11)",
         "WIA(오디션3) 서버파트 리드 (2014.01 ~ 2018.08)"
       ]
+    },
+    {
+      "name": "거상M",
+      "link": "",
+      "dates": "2025.08 ~ 현재",
+      "description": ["모바일 MMORPG 게임", "C#, MongoDB, Redis, MySql 기반", "컨텐츠 개발", "서버 인프라 개선 작업"]
+    },
+    {
+      "name": "럽플레이스",
+      "link": "https://luvplace.co.kr/",
+      "dates": "2024.03 ~ 2025.08",
+      "description": ["모바일•PC 댄스 게임", "C#, MySql, Redis 기반", "컨텐츠 개발", "대만 서비스 런칭"]
     },
     {
       "name": "Frutti Dino Fishing",
