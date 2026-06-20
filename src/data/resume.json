@@ -2,16 +2,23 @@
   "profile": {
     "name": "박대원 / DAEWON PARK",
     "title": "서버 백엔드 엔지니어",
-    "email": "marspark00@gmail.com",
+    "email": "marspark00@naver.com",
     "website": "marspark00.github.io",
     "image": "/images/profile.jpg",
-    "highlights": ["Backend Architecture", "Game Server", "DevOps", "Tech Leadership"],
+    "highlights": [
+      "Backend Architecture",
+      "Game Server",
+      "DevOps",
+      "Tech Leadership"
+    ],
     "about": [
       "게임 서버와 웹/앱 서비스 백엔드 개발자로서 오디션(PC), WIA(오디션3, PC), 클럽 오디션(모바일), 도시어부M(모바일) 등의 프로젝트에서 개발 작업을 해왔습니다.",
       "C++, MSSQL, Node.js, Java, MariaDB, Redis, AWS, Linux 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험으로 확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴을 위해 언제나 고민하고 있습니다.",
       "서비스 개발이란 결국 개발과 비즈니스와의 커뮤니케이션이 가장 중요하다고 생각합니다. 능동적이고 적극적인 커뮤니케이션으로 문제 해결과 비즈니스 발전을 위해 뛰어듭니다."
     ],
-    "more": ["해군 병장 만기제대 (복무 기간 비공개)"]
+    "more": [
+      "해군 병장 만기제대 (복무 기간 비공개)"
+    ]
   },
   "experience": [
     {
@@ -20,7 +27,11 @@
       "jobTitle": "백엔드 개발자",
       "dates": "2024.03 ~ 현재",
       "quote": "게임 개발 스타트업",
-      "description": ["게임 컨텐츠 개발 (럽플레이스, 거상M)", "대만 서비스 런칭 (럽플레이스)", "테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선"]
+      "description": [
+        "게임 컨텐츠 개발 (럽플레이스, 거상M)",
+        "대만 서비스 런칭 (럽플레이스)",
+        "테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선"
+      ]
     },
     {
       "company": "빅스텝",
@@ -66,7 +77,9 @@
       "jobTitle": "C, C++ 백엔드 개발자",
       "dates": "2007.05 ~ 2008.08",
       "quote": "게임 개발 스타트업",
-      "description": ["FPS게임 2War 런칭 및 신규 컨텐츠 제작, 유지보수"]
+      "description": [
+        "FPS게임 2War 런칭 및 신규 컨텐츠 제작, 유지보수"
+      ]
     }
   ],
   "projects": [
@@ -85,19 +98,33 @@
       "name": "거상M",
       "link": "",
       "dates": "2025.08 ~ 현재",
-      "description": ["모바일 MMORPG 게임", "C#, MongoDB, Redis, MySql 기반", "컨텐츠 개발", "서버 인프라 개선 작업"]
+      "description": [
+        "모바일 MMORPG 게임",
+        "C#, MongoDB, Redis, MySql 기반",
+        "컨텐츠 개발",
+        "서버 인프라 개선 작업"
+      ]
     },
     {
       "name": "럽플레이스",
       "link": "https://luvplace.co.kr/",
       "dates": "2024.03 ~ 2025.08",
-      "description": ["모바일•PC 댄스 게임", "C#, MySql, Redis 기반", "컨텐츠 개발", "대만 서비스 런칭"]
+      "description": [
+        "모바일•PC 댄스 게임",
+        "C#, MySql, Redis 기반",
+        "컨텐츠 개발",
+        "대만 서비스 런칭"
+      ]
     },
     {
       "name": "Frutti Dino Fishing",
       "link": "https://medium.com/@FruttiDino/%EF%B8%8Fnew-frutti-dino-updates-%EF%B8%8F-1a7ed3a9abe8",
       "dates": "2023.01 ~ 2023.10",
-      "description": ["모바일 PVP 낚시 게임", "node.js(JS), Java, MariaDB, Redis, Docker, Rocky Linux 기반", "API서버, 대전서버 개발"]
+      "description": [
+        "모바일 PVP 낚시 게임",
+        "node.js(JS), Java, MariaDB, Redis, Docker, Rocky Linux 기반",
+        "API서버, 대전서버 개발"
+      ]
     },
     {
       "name": "모비딕",
@@ -164,7 +191,11 @@
   "skills": [
     {
       "name": "Backend",
-      "description": ["C++, C#, Java, NodeJS(JavaScript)", "TypeORM, Gradle", "IntelliJ, Visual Studio, Visual Studio Code"]
+      "description": [
+        "C++, C#, Java, NodeJS(JavaScript)",
+        "TypeORM, Gradle",
+        "IntelliJ, Visual Studio, Visual Studio Code"
+      ]
     },
     {
       "name": "DevOps",
@@ -192,21 +223,29 @@
       "dates": "2006.10 ~ 2007.04",
       "link": "https://itbc.or.kr/",
       "quote": "C, C++, SQL등 교육",
-      "description": ["C, C++ 언어를 이용한 프로그램 교육 이수", "MSSQL을 이용한 데이터베이스 교육 이수"]
+      "description": [
+        "C, C++ 언어를 이용한 프로그램 교육 이수",
+        "MSSQL을 이용한 데이터베이스 교육 이수"
+      ]
     },
     {
       "name": "수성대학교",
       "dates": "2004.03 ~ 2006.02",
       "link": "https://www.sc.ac.kr/main",
       "quote": "멀티미디어 학과",
-      "description": ["프로그램 전반 교육", "미디어 관련 교육"]
+      "description": [
+        "프로그램 전반 교육",
+        "미디어 관련 교육"
+      ]
     }
   ],
   "certificates": [
     {
       "name": "정보처리 산업기사",
       "link": "https://www.q-net.or.kr/crf005.do?id=crf00505&gSite=Q&jmCd=2290",
-      "description": ["한국산업인력공단 (취득일 비공개)"]
+      "description": [
+        "한국산업인력공단 (취득일 비공개)"
+      ]
     }
   ]
 }
